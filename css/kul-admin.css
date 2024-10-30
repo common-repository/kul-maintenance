@@ -1,0 +1,93 @@
+.boxes.box-logo {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+.box-slider {
+    min-height: 200px;
+}
+
+.wrap h2.kul-admin-title {
+    margin-bottom: 15px;
+}
+
+.kul_status_text.on {
+    color: rgb(100, 189, 99);
+}
+
+.kul_status_text {
+    color: rgb(229, 0, 0);
+    background-color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: red;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+    box-shadow: -1px 2px 11px #888888;
+}
+
+.slider_active .kul_status_text {
+    border-radius: 15px;
+
+    font-size: 10px;
+}
+
+#poststuff .metabox-holder h2.nav-tab-wrapper {
+    padding: 0;
+}
+
+#kul-maintenance-right {
+    float: right;
+    width: 30% !important;
+}
+
+.postbox-container {
+    width: 65% !important;
+}
+
+#kul-maintenance-fields input#kul_heading, #kul-maintenance-fields input#kul_title, #kul-maintenance-fields textarea {
+    width: 100%;
+}
+
+.img-container .box-slider {
+    min-height: 330px !important;
+    margin-bottom: 20px;
+}
+
+.img-container .delete-img {
+    float: right;
+}
+
+@media only screen
+and (max-width: 1024px) {
+
+
+    .postbox-container #kul-maintenance-right {
+        width: 100% !important;
+    }
+
+}
+
+.slider_active {
+    margin: 10px 0;
+}
+
+.slider_active label {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.image_dimen {
+    font-style: italic;
+}
+
+.slider_active .switchery.switchery-small {
+    width: 50px;
+}

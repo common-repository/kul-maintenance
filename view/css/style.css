@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+
+input, textarea {
+    color: #fff;
+}
+
+.form_ttl p#error_msg {
+    color: red;
+    font-size: 15px;
+}
+
+
+/* =================== slider overlay css =================== */
+
+.slider_overlay {
+    background: #000000;
+    opacity: 0.65;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+/* =================== slider overlay css =================== */
+
+
+/* =================== logo section css =================== */
+
+.main_container {
+    position: relative;
+    z-index: 99;
+    display: table;
+    float: left;
+    width: 100%;
+}
+
+/* =================== logo section css =================== */
+
+
+/* =================== logo section css =================== */
+
+.logo {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.logo img {
+    width: 120px;
+}
+
+/* =================== logo section css =================== */
+
+
+/* =================== contain holder css =================== */
+
+.content_holder {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.heading {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 0.10em;
+}
+
+.comp_para {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.comp_para p {
+    font-size: 18px;
+    letter-spacing: 0.10em;
+    width: 69%;
+    margin: auto;
+}
+
+.frm_hoder {
+    margin: auto;
+    width: 35%;
+}
+
+.social_media, .form_ttl {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.form_ttl p {
+    font-size: 22px;
+    letter-spacing: 0.10em;
+}
+
+.frm_hoder form p, .copryright {
+    float: left;
+    width: 100%;
+}
+
+.frm_hoder p.btn_hldr input.sbt_button {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.frm_hoder form p input, .frm_hoder form p textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.frm_hoder form p input:focus, .frm_hoder form p textarea:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.frm_hoder form p textarea {
+    min-height: 114px;
+    max-height: 114px;
+}
+
+
+.frm_hoder p.btn_hldr input.sbt_button:hover {
+    background: #fcf100;
+    color: #000;
+}
+
+
+/* =================== contain holder css =================== */
+
+
+/* =================== social media css =================== */
+
+.social_media ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+
+.social_media ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.social_media ul li a {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    float: left;
+    text-align: center;
+}
+
+.social_media ul li .fa {
+    color: #fff;
+    font-size: 20px;
+    line-height: 37px;
+}
+
+
+.copryright {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.copryright p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* =================== social media css =================== */
+
+
+/* placeholder css */
+::-webkit-input-placeholder {
+    color: #fff;
+    letter-spacing: 0.10em;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+    letter-spacing: 0.10em;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+    letter-spacing: 0.10em;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+    letter-spacing: 0.10em;
+}
+
+/* placeholder css */
+
+
+.social_media ul li .fa, .social_media ul li a, .frm_hoder p.btn_hldr input.sbt_button, .frm_hoder form p input, .frm_hoder form p textarea {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.social_media {
+    margin-top: 40px;
+}
+
+.cbp-bicontrols {
+    display: none;
+}
+
+
+@media only screen
+and (max-width: 1024px) {
+    .frm_hoder {
+        width: 90%;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+}
+
+.error {
+    border-bottom: 2px solid rgba(255, 0, 0, 1) !important;
+}
+
+#email_success {
+    color: #64BD63;
+}
